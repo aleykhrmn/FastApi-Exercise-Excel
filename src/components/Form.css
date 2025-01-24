@@ -1,0 +1,96 @@
+/* Genel sayfa stilini ayarlayalım */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Formun ana kutusunun stilini düzenleyelim */
+  div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Başlık stilini ayarlayalım */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form elemanlarının genel stilini düzenleyelim */
+  label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Input elemanları için stil */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;  /* Gereksiz boşluğu azaltalım */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input elemanları odaklandığında */
+  input:focus {
+    outline: none;
+    border-color: #5c6bc0;
+  }
+  
+  /* Buton stilini düzenleyelim */
+  button {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;  /* Butonun konumunu belirleyelim */
+  }
+  
+  button:hover {
+    background-color: #3f4c9d;
+  }
+  
+  button:active {
+    background-color: #2f3a7c;
+  }
+  
+  /* Başarı veya hata mesajını düzenleyelim */
+  p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  p.success {
+    color: #4caf50;
+  }
+  
+  p.error {
+    color: #e74c3c;
+  }
+  
